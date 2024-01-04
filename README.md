@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### 使用說明
 
-- 運行後會再終端機持續運行。
+- 運行後會在終端機持續運行。
 - 網頁模組以gradio套件建立。
 - GPT4 Turbo模型響應速度較快。
 - GPT4 Vison可以輸入圖片進行分析。
