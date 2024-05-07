@@ -1,4 +1,5 @@
-Requests
-gradio
-open-interpreter==0.1.17
-openai==0.28.1
+gradio==4.29.0
+litellm==1.34.39
+Pillow==10.1.0
+requests==2.31.0
+openai==1.20.0

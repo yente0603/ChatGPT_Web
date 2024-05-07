@@ -2,3 +2,4 @@ __pycache__
 *.json
 litellm_uuid.txt
 *.zip
+/image

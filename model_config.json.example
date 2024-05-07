@@ -1,23 +1,61 @@
 [
     {
-        "model_name": "GPT4 Turbo",
+        "model_name": "GPT-3.5 Turbo",
+        "model_version": "0125",
         "deployment": "",
         "endpoint": "",
         "key": "",
-        "api-version": ""
+        "api-version": "2024-02-01",
+        "model_info": "<body><h2>Model Info</h2><p><strong>Model:</strong> gpt35-turbo</p><p><strong>Version:</strong> 0125</p><p><strong>API Version:</strong> 2024-02-01</p><p><strong>Max Token:</strong> 16,385</p><p><strong>Input Format:</strong> Text Only</p></body>",
+        "deployment_info": "<body><h2>Deployment Setting</h2><p><strong>Region:</strong> Canada East</p><p><strong>TPM:</strong> 30k</p><p><strong>RPM:</strong> 180</p><p><strong>Content Filter:</strong> Disable</p></body>"
     },
     {
-        "model_name": "GPT4 Vision",
+        "model_name": "GPT-4 Turbo",
+        "model_version": "0409",
         "deployment": "",
         "endpoint": "",
         "key": "",
-        "api-version": ""
+        "api-version": "2024-05-01-preview",
+        "model_info": "<body><h2>Model Info</h2><p><strong>Model:</strong> gpt4-turbo</p><p><strong>Version:</strong> 0409</p><p><strong>API Version:</strong> 2024-05-01-preview</p><p><strong>Max Token:</strong> 4,096</p><p><strong>Input Format:</strong> Text/Image</p></body>",
+        "deployment_info": "<body><h2>Deployment Setting</h2><p><strong>Region:</strong> East US 2</p><p><strong>TPM:</strong> 30k</p><p><strong>RPM:</strong> 180</p><p><strong>Content Filter:</strong> Enable(Image input)/ Disable(Only text)</p></body>"
     },
     {
-        "model_name": "GPT4 Code Interpreter",
+        "model_name": "GPT-4 Vision",
+        "model_version": "Vision",
         "deployment": "",
         "endpoint": "",
-        "key": "d",
-        "api-version": ""
+        "key": "",
+        "api-version": "2023-12-01-preview",
+        "cv_endpoint": "",
+        "cv_key": "",
+        "model_info": "<body><h2>Model Info</h2><p><strong>Model:</strong> gpt4-turbo</p><p><strong>Version:</strong> vision</p><p><strong>API Version:</strong> 2023-12-01-preview</p><p><strong>Max Token:</strong> 4,096</p><p><strong>Input Format:</strong> Text/Image</p></body>",
+        "deployment_info": "<body><h2>Deployment Setting</h2><p><strong>Region:</strong> Australia East</p><p><strong>TPM:</strong> 10k</p><p><strong>RPM:</strong> 60</p><p><strong>Content Filter:</strong> Enable</p><p><strong>Computer Vision:</strong> OCR/Object detection</p></body>"
+    },
+    {
+        "model_name": "Dall-E-3",
+        "model_version": "3.0",
+        "deployment": "",
+        "endpoint": "",
+        "key": "",
+        "api-version": "2024-02-01",
+        "model_info": "<body><h2>Model Info</h2><p><strong>Model:</strong> dall-e-3</p><p><strong>Version:</strong> 3.0</p><p><strong>API Version:</strong> 2024-02-01</p><p><strong>Input Format:</strong> Text Only</p></body>",
+        "deployment_info": "<body><h2>Deployment Setting</h2><p><strong>Region:</strong> Australia East</p><p><strong>RPM:</strong> 3</p><p><strong>Content Filter:</strong> Enable</p></body>"
+    },
+    {
+        "model_name": "Assistants",
+        "GPT-3.5 Turbo":{
+        "deployment": "",
+        "model_version": "1106",
+        "endpoint": "",
+        "key": "",
+        "api-version": "2024-02-15-preview"},
+        "GPT-4 Turbo": {
+        "deployment": "",
+        "model_version": "0125",
+        "endpoint": "",
+        "key": "",
+        "api-version": "2024-02-15-preview"},
+        "model_info": "<body><h2>Model Info</h2><p><strong>Model:</strong> gpt35-turbo/gpt4-turbo</p><p><strong>Version:</strong> 0125</p><p><strong>API Version:</strong> 2024-02-15-preview</p><p><strong>Input Format:</strong> Text/Files</p></body>",
+        "deployment_info": "<body><h2>Deployment Setting</h2><p><strong>Region:</strong> Canada East/East US</p><p><strong>TPM:</strong> 30k/20k</p><p><strong>RPM:</strong> 180/120</p><p><strong>Content Filter:</strong> Disable</p></body>"
     }
 ]
